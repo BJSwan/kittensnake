@@ -162,9 +162,7 @@ public class Game extends Canvas implements Runnable{
 	}
 	
 	public static void main(String[] args) {
-		System.setProperty("org.lwjgl.librarypath", new File("C:\\Users\\bryto\\Documents\\Java Stuff\\funworkspace\\KittenSnake\\slick").getAbsolutePath());
-		new Game();	
-		
+		System.setProperty("org.lwjgl.librarypath", new File("slick").getAbsolutePath());
+		new Game();
 	}
-
 }
